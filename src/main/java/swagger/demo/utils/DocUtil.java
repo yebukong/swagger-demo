@@ -56,12 +56,12 @@ public class DocUtil {
 		return doc2String(new FileInputStream(file));
 	}
 
-	public static void main(String[] args) {
-		File file = new File("D:\\Mine\\Desktop\\test.docx");
-		try {
-			System.out.println(doc2String(file));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
+//	public static void main(String[] args) {
+//		File file = new File("D:\\Mine\\Desktop\\test.docx");
+//		try {
+//			System.out.println(doc2String(file));
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//	}
 }

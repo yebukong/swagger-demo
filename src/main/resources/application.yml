@@ -3,6 +3,7 @@ spring:
   profiles:
     active: dev
     include: mvc,config
+    
   
   
 
