@@ -6,5 +6,5 @@ swagger-UI 简单使用，同时使用gradle管理项目
 - swagger-springmvc将swagger集成到springmvc中来，而springfox则是从这个组件发展而来
 
 
->参考：https://www.cnblogs.com/getupmorning/p/7267076.html
->     https://www.jianshu.com/p/12f4394462d5
+>https://www.cnblogs.com/getupmorning/p/7267076.html  
+https://www.jianshu.com/p/12f4394462d5
