@@ -31,7 +31,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
 		return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo())
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("swagger.demo.controller"))
-                .paths(PathSelectors.any())
+                .paths(PathSelectors.any())//过滤的路径
                 .build();
 	}
 
